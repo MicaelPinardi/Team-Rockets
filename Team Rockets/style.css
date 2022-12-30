@@ -18,6 +18,11 @@ cores {
   max-width: 100vw;
 }
 
+*::selection {
+  background-color: #bc7bf1;
+  color: #000000;
+}
+
 /* SCROLL BAR */
 body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */
@@ -184,4 +189,24 @@ header {
   width: 30vw;
   margin: 0vh 0vw 0vh 34.497322vw;
   border-color: #ffffffac;
+}
+
+/* TRABALHOS */
+
+.trab-lista {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  }
+
+.trab-item {
+  display: flex;
+  flex-direction: row;
+  width: 25vw;
+}
+
+.trab-txt {
+  margin-left: 2rem;
 }
