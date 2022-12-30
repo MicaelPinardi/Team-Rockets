@@ -199,14 +199,19 @@ header {
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 32px;
   grid-row-gap: 32px;
+  margin: 0 auto;
+  width: 60vw;
   }
 
 .trab-item {
   display: flex;
   flex-direction: row;
-  width: 25vw;
+  width: 30vw;
+  font-size: 14pt;
+  
 }
 
 .trab-txt {
   margin-left: 2rem;
+  text-align: justify;
 }
