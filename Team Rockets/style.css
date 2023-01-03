@@ -167,7 +167,7 @@ header {
 .servicos {
   background-color: #ffffff;
   height: 100vh;
-  padding: 20vh 0vw 10vh 0vh;
+  padding: 3rem;
   text-align: center;
 }
 
@@ -197,20 +197,25 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 32px;
-  grid-row-gap: 32px;
+  grid-column-gap: 6rem;
+  grid-row-gap: 4rem;
+  width: 70vw;
   margin: 0 auto;
-  width: 60vw;
   }
 
 .trab-item {
   display: flex;
   flex-direction: row;
   width: 30vw;
-  font-size: 14pt;
-  
+  font-size: 12pt;
 }
 
+.trab-item h3 {
+  font-size: 15pt;
+}
+.trab-item p {
+  font-size: 12pt;
+}
 .trab-txt {
   margin-left: 2rem;
   text-align: justify;
